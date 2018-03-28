@@ -19,7 +19,6 @@ section
 
 .opaque-navbar {
   background-color: rgba(0,0,0,0.5);
-  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
   height: 60px;
   border-bottom: 0px;
   transition: background-color .5s ease 0s;
@@ -54,7 +53,7 @@ ul.dropdown-menu {
 html,
 body {
   height: 100%;
-  /* The html and body elements cannot have any padding or margin. */
+
   -webkit-font-smoothing: antialiased;
   font: normal 14px arial,sans-serif;
 }
