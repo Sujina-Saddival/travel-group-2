@@ -13,7 +13,8 @@ $(document).ready(function(){
        else if ($input.val()>=1) 
         $input.val(parseInt($input.val())-1);
         $(this).hide();
-        $(".fa-thumbs-down").show();
+        $(".fa-thumbs-up").show();
+       
     });
     });
     
