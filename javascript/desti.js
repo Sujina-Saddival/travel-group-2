@@ -1,4 +1,10 @@
 $(document).ready(function(){
+  $("#two").show();
+  $(".asian").hide();
+  $(".austra").hide();
+  $(".europ").hide();
+  $(".souame").hide();
+
 	$(".show").click(function(){
       // $(".panel-body").hide();
       $("#Showpara").toggle();
@@ -45,8 +51,40 @@ $(document).ready(function(){
   	});
   	$(".show11").click(function(){
       // $(".panel-body").hide();
-      debugger
+    
       $("#Showpara11").toggle();
   	});
-  	
+
+    $("#asia").click(function(){
+      
+      $(".austra").hide();
+      $(".europ").hide();
+      $(".souame").hide();
+      $(".asian").show();
+      $(".centered").text("asia");
+    });
+    $("#austr").click(function(){
+      
+      $(".asian").hide();
+      $(".europ").hide();
+      $(".souame").hide();
+      $(".austra").show();
+      $(".centered").text("Australia");
+    });
+    $("#euro").click(function(){
+      
+      $(".asian").hide();
+      $(".austra").hide();
+      $(".souame").hide();
+      $(".europ").show();
+      $(".centered").text("Europe");
+    });
+    $("#soame").click(function(){
+      
+      $(".asian").hide();
+      $(".austra").hide();
+      $(".europ").hide();
+      $(".souame").show();
+      $(".centered").text("South America");
+    });
 });
