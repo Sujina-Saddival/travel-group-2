@@ -1,18 +1,19 @@
-
 $(document).ready(function(){
-   var $input = $("#txtAcrescimo");
+   var $input = $("#txt");
     $input.val(0);
-     $(".altera").click(function(){ 
-      if ($(this).hasClass('acrescimo')) $input.val(parseInt($input.val())+1); 
+     $(".fa-thumbs-up").click(function(){ 
+      if ($(this).addClass('fa-thumbs-up')) $input.val(parseInt($input.val())+1); 
        else if ($input.val()>=1) 
-        $input.val(parseInt($input.val())-1); 
+        $input.val(parseInt($input.val())-1);
+        $(this).hide();
+        $(".fa-thumbs-down").show();
     });
-   $("#image1").mouseenter(function() {
-               $(".middel1").show();
+     $(".fa-thumbs-down").click(function(){ 
+      if ($(this).addClass('fa-thumbs-down')) $input.val(parseInt($input.val())-1); 
+       else if ($input.val()>=1) 
+        $input.val(parseInt($input.val())-1);
+        $(this).hide();
+        $(".fa-thumbs-down").show();
     });
-    $("#image1").mouseleave(function() {
-               $(".middle1").hide();
     });
-
-    });
-
+    
