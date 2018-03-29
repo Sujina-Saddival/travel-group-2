@@ -40,6 +40,18 @@ $(document).ready(function(){
   $(".show11").click(function(){
     $("#Showpara11").toggle();
   });
+  $(".show12").click(function(){
+    $("#Showpara12").toggle();
+  });
+  $(".show13").click(function(){
+    $("#Showpara13").toggle();
+  });
+  $(".show14").click(function(){
+    $("#Showpara14").toggle();
+  });
+  $(".show15").click(function(){
+    $("#Showpara15").toggle();
+  });
 
   $("#asia").click(function(){
     $(".austra").hide();
