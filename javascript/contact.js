@@ -36,5 +36,10 @@ $(document).ready(function() {
     }
     return input; 
   }
+  $("button").on("click",function(){
+    var input = $("input[type='text'],select");
+    if(!input.val()){
+      input.css("border","2px solid red");
+    } 
+  });
 });
-
