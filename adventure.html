@@ -12,14 +12,12 @@
   <body>
       <header class="masthead">
       <div class="container">
-        <div class="row">
-          <p class="lead"></p><h1 style=font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;>Travel the World</h1>
+        <div class="row col-xs-12 col-sm-10">
+          <p class="lead"></p><h1 id="hed" style=font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;>Travel the World</h1>
         </div> 
       </header>
       <div id="wrap">
-          <div class="navbar navbar-custom navbar-inverse navbar-static-top" id="nav" style="
-      margin-bottom: 242px;">
-      <div class="container">
+          <div class="navbar navbar-custom navbar-inverse navbar-static-top" id="nav">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
@@ -31,117 +29,139 @@
           <ul class="nav navbar-nav nav-justified">
             <li><a href="index.html"><strong>Home</strong></a></li>
             <li class="dropdown">
-              <a href="desti.html" class="dropdown-toggle" data-toggle="dropdown">Destinations <b class="caret"></b></a>
+              <a href="#two" class="dropdown-toggle" data-toggle="dropdown">Destinations <b class="caret"></b></a>
               <ul class="dropdown-menu" >
-                <li><a href="#">Asia</a></li>
-                <li><a href="#">Australia</a></li>
-                <li><a href="#">Europe</a></li>
-                <li><a href="#">South America</a></li>
+                <li><a href="#asia">Asia</a></li>
+                <li><a href="#aust">Australia</a></li>
+                <li><a href="#euro">Europe</a></li>
+                <li><a href="#soame">South America</a></li>
               </ul>
             </li>
-            <li><a href="adventure.html" active>Adventure</a></li>
+            <li  class="active"><a href="adventure.html">Adventure</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="#">Likes<input type="text" id="txt"></a></li>    
           </ul>
         </div>
-      </div>
     </div> 
-    <div class="container" >
-      <div id="asia">
+      <div id="asin">
       <div class="row"> 
       <h2>Welcome to Asia</h2>
        <h3>Welcome To India Adventure</h3> 
         <div class="col-sm-4"> 
-         <img src="images/Adventure.jpg" class="image"> 
+        <div id="img1">
+         <img class=" responsive image" src="images/Adventure.jpg" > 
          <div class="middle">
              <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
+             </div>
          </div>
        </div> 
        <div class="col-sm-4"> 
-         <img src="images/tourisum.jpg" class="image">
+       <div id="img2">
+         <img src="images/tourisum.jpg" class="responsive image">
          <div class="middle">
            <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
+         </div>
          </div> 
        </div>
        <div class="col-sm-4"> 
-         <img src="images/taj.jpg" class="image"> 
+           <div id="img3">
+         <img src="images/taj.jpg" class="responsive image"> 
          <div class="middle">
            <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
+         </div>
          </div> 
        </div>
      </div> 
      <div class="row"> 
      <h3>Welcome To Bangkok Adventure</h3>
        <div class="col-sm-4"> 
+       <div id="img4">
          <img src="images/ban1.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
        </div>
        </div>
-       <div class="col-sm-4"> 
+       </div>
+       <div class="col-sm-4">
+       <div id="img5"> 
          <img src="images/ban2.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
+         </div>
          </div> 
        </div>
        <div class="col-sm-4"> 
-         <img src="images/ban3.jpg" class="image"> 
+       <div id="img6">
+         <img src="images/ban3.jpg" class="image">   
          <div class="middle">
            <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
+         </div>
          </div> 
        </div>
      </div> 
      <div class="row"> 
      <h3>Welcome To Singapore Adventure</h3>
        <div class="col-sm-4"> 
+       <div id="img7">
          <img src="images/sing1.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
        </div>
        </div>
+       </div>
        <div class="col-sm-4"> 
-         <img src="images/sing2.jpg" class="image"> 
+        <div id="img8">
+         <img src="images/sing2.jpg" class="image">
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
+         </div>
          </div> 
        </div>
        <div class="col-sm-4"> 
+       <div id="img9">
          <img src="images/sing3.jpg" class="image"> 
          <div class="middle">
            <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
-             <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
+            <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
+         </div>
          </div> 
        </div>
      </div> 
      <div class="row"> 
      <h3>Welcome To Malaysia Adventure</h3>
-       <div class="col-sm-4"> 
+       <div class="col-sm-4">
+       <div id="img10"> 
          <img src="images/mal1.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
        </div>
        </div>
-       <div class="col-sm-4"> 
+       </div>
+       <div class="col-sm-4">
+       <div id="img11"> 
          <img src="images/mal2.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
+         </div>
          </div> 
        </div>
        <div class="col-sm-4"> 
+       <div id="img12">
          <img src="images/mal3.jpg" class="image"> 
          <div class="middle">
            <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
+         </div>
          </div> 
        </div>
      </div>
@@ -151,97 +171,121 @@
      <h2>Welcome To Australia</h2>
      <h3>Welcome To Melbourne Adventure</h3>
        <div class="col-sm-4"> 
+       <div id="img13">
          <img src="images/melb1.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
        </div>
        </div>
+       </div>
        <div class="col-sm-4"> 
+       <div id="img14">
          <img src="images/melb2.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
+         </div>
          </div> 
        </div>
        <div class="col-sm-4"> 
+       <div id="img15">
          <img src="images/melb3.jpg" class="image"> 
          <div class="middle">
            <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
+         </div>
          </div> 
        </div>
      </div> 
      <div class="row"> 
      <h3>Welcome To Sydney Adventure</h3>
        <div class="col-sm-4"> 
+       <div id="img16">
          <img src="images/syd1.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
        </div>
        </div>
+       </div>
        <div class="col-sm-4"> 
+       <div id="img17">
          <img src="images/syd2.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
          </div> 
        </div>
-       <div class="col-sm-4"> 
+       </div>
+       <div class="col-sm-4">
+       <div id="img18"> 
          <img src="images/syd3.jpg" class="image"> 
          <div class="middle">
            <i class="fa fa-thumbs-up"></i>
          </div> 
        </div>
+     </div>
      </div> 
      <div class="row"> 
      <h3>Welcome To Perth Adventure</h3>
        <div class="col-sm-4"> 
+       <div id="img19">
          <img src="images/per1.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
        </div>
        </div>
+       </div>
        <div class="col-sm-4"> 
+       <div id="img20">
          <img src="images/per2.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
          </div> 
+         </div>
        </div>
        <div class="col-sm-4"> 
+       <div id="img21">
          <img src="images/per3.jpg" class="image"> 
          <div class="middle">
            <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
          </div> 
+         </div>
        </div>
      </div> 
      <div class="row"> 
      <h3>Welcome To Canberra Adventure</h3>
        <div class="col-sm-4"> 
+       <div id="img22">
          <img src="images/syd1.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
        </div>
        </div>
+       </div>
        <div class="col-sm-4"> 
+       <div id="img23">
          <img src="images/syd2.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
          </div> 
        </div>
-       <div class="col-sm-4"> 
+       </div>
+       <div class="col-sm-4">
+       <div id="img24"> 
          <img src="images/syd3.jpg" class="image"> 
          <div class="middle">
            <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
          </div> 
        </div>
+     </div>
      </div>
      </div> 
      <div id="europe">
@@ -249,20 +293,25 @@
      <h2>Welcome To Europe</h2>
      <h3>Welcome To Venice Adventure</h3>
        <div class="col-sm-4"> 
+       <div id="img25">
          <img src="images/ven1.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
        </div>
        </div>
-       <div class="col-sm-4"> 
+       </div>
+       <div class="col-sm-4">
+       <div id="img26"> 
          <img src="images/ven2.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
          </div> 
        </div>
+       </div>
        <div class="col-sm-4"> 
+       <div id="img27">
          <img src="images/ven3.jpg" class="image"> 
          <div class="middle">
            <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
@@ -270,46 +319,58 @@
          </div> 
        </div>
      </div> 
+     </div>
    <div class="row"> 
      <h3>Welcome To Madrid Adventure</h3>
        <div class="col-sm-4"> 
+       <div id="img28">
          <img src="images/mad1.jpg" class="image"> 
          <div class="middle">
           <i class="fa fa-thumbs-up"></i>
        </div>
        </div>
+       </div>
        <div class="col-sm-4"> 
+       <div id="img29">
          <img src="images/mad2.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
          </div> 
        </div>
+       </div>
        <div class="col-sm-4"> 
+       <div id="img30">
          <img src="images/mad3.jpg" class="image"> 
          <div class="middle">
            <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
          </div> 
        </div>
+       </div>
      </div> 
      <div class="row"> 
      <h3>Welcome To Vienna Adventure</h3>
-       <div class="col-sm-4"> 
+       <div class="col-sm-4">
+       <div id="img31"> 
          <img src="images/vie.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
        </div>
        </div>
+       </div>
        <div class="col-sm-4"> 
+       <div id="img32">
          <img src="images/vie2.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
          </div> 
        </div>
+       </div>
        <div class="col-sm-4"> 
+       <div id="img33">
          <img src="images/vie3.jpg" class="image"> 
          <div class="middle">
            <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
@@ -317,23 +378,29 @@
          </div> 
        </div>
      </div>
+     </div>
      <div class="row"> 
      <h3>Welcome To Paris Adventure</h3>
        <div class="col-sm-4"> 
+       <div id="img34">
          <img src="images/par1.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
        </div>
        </div>
+       </div>
        <div class="col-sm-4"> 
+       <div id="img35">
          <img src="images/par2.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
          </div> 
        </div>
-       <div class="col-sm-4"> 
+       </div>
+       <div class="col-sm-4">
+       <div id="img36"> 
          <img src="images/par3.jpg" class="image"> 
          <div class="middle">
            <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
@@ -341,50 +408,62 @@
          </div> 
        </div>
      </div>
+     </div>
      </div> 
      <div id="samerica">
      <div class="row"> 
      <h2>Welcome To South America</h2>
      <h3>Welcome To Argentina Adventure</h3>
-       <div class="col-sm-4"> 
+       <div class="col-sm-4">
+       <div id="img37"> 
          <img src="images/arg1.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
        </div>
        </div>
+       </div>
        <div class="col-sm-4"> 
+       <div id="img38">
          <img src="images/arg2.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
          </div> 
        </div>
+       </div>
        <div class="col-sm-4"> 
+       <div id="img39">
          <img src="images/arg3.jpg" class="image"> 
          <div class="middle">
            <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
          </div> 
        </div>
+       </div>
      </div> 
    <div class="row"> 
      <h3>Welcome To Peru Adventure</h3>
        <div class="col-sm-4"> 
+       <div id="img40">
          <img src="images/peru1.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
        </div>
        </div>
-       <div class="col-sm-4"> 
+       </div>
+       <div class="col-sm-4">
+       <div id="img41"> 
          <img src="images/peru2.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
          </div> 
+         </div>
        </div>
        <div class="col-sm-4"> 
+       <div id="img42">
          <img src="images/peru3.jpg" class="image"> 
          <div class="middle">
            <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
@@ -392,23 +471,29 @@
          </div> 
        </div>
        </div>
+       </div>
        <div class="row"> 
      <h3>Welcome To Brazil Adventure</h3>
        <div class="col-sm-4"> 
+       <div id="img43">
          <img src="images/bra1.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
        </div>
        </div>
+       </div>
        <div class="col-sm-4"> 
+       <div id="img44">
          <img src="images/bra2.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
          </div> 
+         </div>
        </div>
-       <div class="col-sm-4"> 
+       <div class="col-sm-4">
+       <div id="img45"> 
          <img src="images/bra3.jpg" class="image"> 
          <div class="middle">
            <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
@@ -416,28 +501,35 @@
          </div> 
        </div>
        </div>
+       </div>
        <div class="row"> 
      <h3>Welcome To Bolivia Adventure</h3>
        <div class="col-sm-4"> 
+       <div id="img46">
          <img src="images/bol1.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
        </div>
        </div>
-       <div class="col-sm-4"> 
+       </div>
+       <div class="col-sm-4">
+       <div id="img47"> 
          <img src="images/bol2.jpg" class="image"> 
          <div class="middle">
           <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
          </div> 
        </div>
-       <div class="col-sm-4"> 
+       </div>
+       <div class="col-sm-4">
+       <div id="img48"> 
          <img src="images/bol3.jpg" class="image"> 
          <div class="middle">
            <i onclick="myFunction()" class="fa fa-thumbs-up"></i>
              <i onclick="myFunction()" class="fa fa-thumbs-down" style="display:none;"></i>
          </div> 
+       </div>
        </div>
        </div>
        </div>

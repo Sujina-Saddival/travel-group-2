@@ -69,4 +69,8 @@ $(document).ready(function(){
     $(".souame").show();
     $(".centered").text("South America");
   });
+  $("#asia").click(function(){
+    $("#asin").show();
+    $("#australia").hide();
+  });
 });

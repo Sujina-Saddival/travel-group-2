@@ -6,7 +6,7 @@
   .image{
     width:300px;
     height:250px;
-    }
+      }
     h2{
       border:none;
       background-color: aqua;
@@ -34,34 +34,295 @@
   text-align: center;
 }
 
-#asia:hover .image {
+#img1:hover .image {
   opacity: 0.3;
 }
-
-#asia:hover .middle {
+#img1:hover .middle {
   opacity: 1;
 }
-#australia:hover .image {
+#img2:hover .image {
   opacity: 0.3;
 }
-
-#australia:hover .middle {
+#img2:hover .middle {
   opacity: 1;
 }
-#europe:hover .image {
+#img3:hover .image {
   opacity: 0.3;
 }
-
-#europe:hover .middle {
+#img3:hover .middle {
   opacity: 1;
 }
-#samerica:hover .image {
+#img4:hover .image {
   opacity: 0.3;
 }
-
-#samerica:hover .middle {
+#img4:hover .middle {
   opacity: 1;
 }
+#img5:hover .image {
+  opacity: 0.3;
+}
+#img5:hover .middle {
+  opacity: 1;
+}
+#img6:hover .image {
+  opacity: 0.3;
+}
+#img6:hover .middle {
+  opacity: 1;
+}
+#img7:hover .image {
+  opacity: 0.3;
+}
+#img7:hover .middle {
+  opacity: 1;
+}
+#img8:hover .image {
+  opacity: 0.3;
+}
+#img8:hover .middle {
+  opacity: 1;
+}
+#img9:hover .image {
+  opacity: 0.3;
+}
+#img9:hover .middle {
+  opacity: 1;
+}
+#img10:hover .image {
+  opacity: 0.3;
+}
+#img10:hover .middle {
+  opacity: 1;
+}
+#img11:hover .image {
+  opacity: 0.3;
+}
+#img11:hover .middle {
+  opacity: 1;
+}
+#img12:hover .image {
+  opacity: 0.3;
+}
+#img12:hover .middle {
+  opacity: 1;
+}
+#img13:hover .image {
+  opacity: 0.3;
+}
+#img13:hover .middle {
+  opacity: 1;
+}
+#img14:hover .image {
+  opacity: 0.3;
+}
+#img14:hover .middle {
+  opacity: 1;
+}
+#img15:hover .image {
+  opacity: 0.3;
+}
+#img15:hover .middle {
+  opacity: 1;
+}
+#img16:hover .image {
+  opacity: 0.3;
+}
+#img16:hover .middle {
+  opacity: 1;
+}
+#img17:hover .image {
+  opacity: 0.3;
+}
+#img17:hover .middle {
+  opacity: 1;
+}
+#img18:hover .image {
+  opacity: 0.3;
+}
+#img18:hover .middle {
+  opacity: 1;
+}
+#img19:hover .image {
+  opacity: 0.3;
+}
+#img19:hover .middle {
+  opacity: 1;
+}
+#img20:hover .image {
+  opacity: 0.3;
+}
+#img20:hover .middle {
+  opacity: 1;
+}
+#img21:hover .image {
+  opacity: 0.3;
+}
+#img21:hover .middle {
+  opacity: 1;
+}
+#img22:hover .image {
+  opacity: 0.3;
+}
+#img22:hover .middle {
+  opacity: 1;
+}
+#img23:hover .image {
+  opacity: 0.3;
+}
+#img23:hover .middle {
+  opacity: 1;
+}
+#img24:hover .image {
+  opacity: 0.3;
+}
+#img24:hover .middle {
+  opacity: 1;
+}
+#img25:hover .image {
+  opacity: 0.3;
+}
+#img25:hover .middle {
+  opacity: 1;
+}
+#img26:hover .image {
+  opacity: 0.3;
+}
+#img26:hover .middle {
+  opacity: 1;
+}
+#img27:hover .image {
+  opacity: 0.3;
+}
+#img27:hover .middle {
+  opacity: 1;
+}
+#img28:hover .image {
+  opacity: 0.3;
+}
+#img28:hover .middle {
+  opacity: 1;
+}
+#img29:hover .image {
+  opacity: 0.3;
+}
+#img29:hover .middle {
+  opacity: 1;
+}
+#img30:hover .image {
+  opacity: 0.3;
+}
+#img30:hover .middle {
+  opacity: 1;
+}
+#img31:hover .image {
+  opacity: 0.3;
+}
+#img31:hover .middle {
+  opacity: 1;
+}
+#img32:hover .image {
+  opacity: 0.3;
+}
+#img32:hover .middle {
+  opacity: 1;
+}
+#img33:hover .image {
+  opacity: 0.3;
+}
+#img33:hover .middle {
+  opacity: 1;
+}
+#img34:hover .image {
+  opacity: 0.3;
+}
+#img34:hover .middle {
+  opacity: 1;
+}
+#img35:hover .image {
+  opacity: 0.3;
+}
+#img35:hover .middle {
+  opacity: 1;
+}
+#img36:hover .image {
+  opacity: 0.3;
+}
+#img36:hover .middle {
+  opacity: 1;
+}
+#img37:hover .image {
+  opacity: 0.3;
+}
+#img37:hover .middle {
+  opacity: 1;
+}
+#img38:hover .image {
+  opacity: 0.3;
+}
+#img38:hover .middle {
+  opacity: 1;
+}
+#img39:hover .image {
+  opacity: 0.3;
+}
+#img39:hover .middle {
+  opacity: 1;
+}
+#img40:hover .image {
+  opacity: 0.3;
+}
+#img40:hover .middle {
+  opacity: 1;
+}
+#img41:hover .image {
+  opacity: 0.3;
+}
+#img41:hover .middle {
+  opacity: 1;
+}
+#img42:hover .image {
+  opacity: 0.3;
+}
+#img42:hover .middle {
+  opacity: 1;
+}
+#img43:hover .image {
+  opacity: 0.3;
+}
+#img43:hover .middle {
+  opacity: 1;
+}
+#img44:hover .image {
+  opacity: 0.3;
+}
+#img44:hover .middle {
+  opacity: 1;
+}
+#img45:hover .image {
+  opacity: 0.3;
+}
+#img45:hover .middle {
+  opacity: 1;
+}
+#img46:hover .image {
+  opacity: 0.3;
+}
+#img46:hover .middle {
+  opacity: 1;
+}
+#img47:hover .image {
+  opacity: 0.3;
+}
+#img47:hover .middle {
+  opacity: 1;
+}
+#img48:hover .image {
+  opacity: 0.3;
+}
+#img48:hover .middle {
+  opacity: 1;
+}
+
 footer.footer {
     height: 100px;
     width: 100%;
@@ -118,6 +379,11 @@ ul.dropdown-menu {
     transition: background-color .5s ease 0s;
   }
 
+}
+@media (min-width: 320px){
+  #hed{
+    font-size: 30px;
+  }
 }
 
 @import url(http://fonts.googleapis.com/css?family=Kreon:400,700);
@@ -208,7 +474,7 @@ header .dropdown-menu {
 }
 
 h1 {
-  font-size:50px;
+  font-size:80px;
 }
 
 #nav {
