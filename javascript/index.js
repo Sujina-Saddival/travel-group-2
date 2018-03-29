@@ -1,3 +1,4 @@
+$(document).ready(function(){
 $(window).scroll(function() {
   if($(this).scrollTop() > 50)  
   {
@@ -26,16 +27,16 @@ $('#nav .navbar-nav li>a').click(function(){
   $('body,html').animate({scrollTop:posi},700);
 })
 
-$(document).ready(function(){
-  $('body,html').animate({
-    scrollTop: 0
-  }, 800);
-  $('.btn-go-to-top').click(function () {
-    $('body,html').animate({
-      scrollTop: 0
-    }, 800);
-    return false;
-  });
+
+//   $('body,html').animate({
+//     scrollTop: 0
+//   }, 800);
+//   $('.btn-go-to-top').click(function () {
+//     $('body,html').animate({
+//       scrollTop: 0
+//     }, 800);
+//     return false;
+//   });
 
 
 
@@ -55,11 +56,23 @@ $(document).ready(function(){
     var text = $('.form-control').val();
     $('#displaysubs').append('<div>' + text + '</div>');
   });
-  $('#contact_email').on('input', function() {
-    var input=$(this);
-    var re = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-    var is_email=re.test(input.val());
-    if(is_email){input.removeClass("invalid").addClass("valid");}
-    else{input.removeClass("valid").addClass("invalid");}
-  });
+  // $('#contact_email').on('input', function() {
+  //   var input=$(this);
+  //   var re = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  //   var is_email=re.test(input.val());
+  //   if(is_email){input.removeClass("invalid").addClass("valid");}
+  //   else{input.removeClass("valid").addClass("invalid");}
+  // });
+
+    $('#hitt').click(function(){
+      // debugger;
+    var fn=document.getElementById('vald').value;
+    if(fn == ""){
+        alert('Please Enter your Email to Subscribe');
+        document.getElementById('vald').style.borderColor = "red";
+        return false;
+      }
+    });
+
+
 });
