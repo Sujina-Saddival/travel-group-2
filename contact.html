@@ -14,106 +14,106 @@
 <body>
   <div id="wrap">
     <header class="masthead">
-        <div class="row">
-        <div class="col-sm-6 col-xs-12 col-md-12">
+      <div class="row">
+      <div class="col-sm-6 col-xs-12 col-md-6">
           <h1 class="lead" style="font-size:42px;">Travel the world</h1>
         </div>
-        </div>
-      </header>
-      <div class="navbar navbar-custom navbar-inverse navbar-static-top" id="nav">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav nav-justified">
-              <li><a href="#index.html"><strong>Home</strong></a></li>
-              <li class="dropdown">
-                <a href="desti.html" class="dropdown-toggle" data-toggle="dropdown">Destinations <b class="caret"></b></a>
-                <ul class="dropdown-menu" >
-                  <li><a href="#">Asia</a></li>
-                  <li><a href="#">Australia</a></li>
-                  <li><a href="#">Europe</a></li>
-                  <li><a href="#">South America</a></li>
-                </ul>
-              </li>
-              <li><a href="adventure.html">Adventure</a></li>
-              <li><a href="#section4">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
-
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container -->
-      </div><!--/.navbar -->   
+      </div>
+    </header>
+    <div class="navbar navbar-custom navbar-inverse navbar-static-top" id="nav">
       <div class="container">
-        <div class="row" >
-         <div class="col-sm-6 col-xs-12 col-md-6">
-          <form method="post" id="myForm" action="#"  onsubmit="return alert('Successful Registration ')" >
-            <div class="form-group">
-              <label for="name">Name:</label>
-              <input type="text" class="form-control" id="name" placeholder="Enter name" name="email" required>
-            </div>
-            <div class="form-group">
-              <label for="email">Email:</label>
-              <input type="text" class="form-control" id="contact_email" placeholder="Enter email" name="pwd" required>
-            </div>
-            <div class="form-group">
-              <label for="email">Phone Number:</label>
-              <input type="text" class="form-control" placeholder="Enter Phone" required id="phoneNumber"
-              onkeypress="return numberPressed(event);"/>
-            </div>
-            <div class="form-group">
-              <label for="email">Location:</label>
-              <select  class="form-control" id="location" placeholder="Enter Loaction" name="pwd" required>
-                <option>Select Location</option>
-                <option>Asia</option>
-                <option>Europe</option>
-                <option>Australia</option>
-                <option>America</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="email">description:</label>
-              <textarea rows="4" cols="20">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav nav-justified">
+            <li><a href="#index.html"><strong>Home</strong></a></li>
+            <li class="dropdown">
+              <a href="desti.html" class="dropdown-toggle" data-toggle="dropdown">Destinations <b class="caret"></b></a>
+              <ul class="dropdown-menu" >
+                <li><a href="#">Asia</a></li>
+                <li><a href="#">Australia</a></li>
+                <li><a href="#">Europe</a></li>
+                <li><a href="#">South America</a></li>
+              </ul>
+            </li>
+            <li><a href="adventure.html">Adventure</a></li>
+            <li><a href="#section4">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
 
-              </textarea>
-            </div>
-            <button type="submit" class="btn btn-info">Submit</button>
-          </form>
-          <!-- Modal -->
-          <div class="modal fade" id="myModal" role="dialog">
-            <div class="modal-dialog">
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container -->
+    </div><!--/.navbar -->   
+    <div class="container">
+      <div class="row" >
+       <div class="col-sm-6 col-xs-12 col-md-6">
+        <form method="post" id="myForm" action="#"  onsubmit="return alert('Successful Registration ')" >
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter name" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="text" class="form-control" id="contact_email" placeholder="Enter email" name="pwd" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Phone Number:</label>
+            <input type="text" class="form-control" placeholder="Enter Phone" required id="phoneNumber"
+            onkeypress="return numberPressed(event);"/>
+          </div>
+          <div class="form-group">
+            <label for="email">Location:</label>
+            <select  class="form-control" id="location" placeholder="Enter Loaction" name="pwd" required>
+              <option>Select Location</option>
+              <option>Asia</option>
+              <option>Europe</option>
+              <option>Australia</option>
+              <option>America</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="email">description:</label>
+            <textarea rows="4" cols="20">
 
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">Modal Header</h4>
-                </div>
-                <div class="modal-body">
-                  <p>Some text in the modal.</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+            </textarea>
+          </div>
+          <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
               </div>
-
+              <div class="modal-body">
+                <p>Some text in the modal.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
             </div>
+
           </div>
         </div>
-        <div class="col-sm-6 col-xs-12 col-md-6">
-         <iframe src="https://www.google.com/maps/d/embed?mid=1E3HoyxnrveYVqn70dF8FW--73SBvDMdN&hl=en" width="500" height="300"></iframe>
-       </div>
+      </div>
+      <div class="col-sm-6 col-xs-12 col-md-6">
+       <iframe src="https://www.google.com/maps/d/embed?mid=1E3HoyxnrveYVqn70dF8FW--73SBvDMdN&hl=en" width="500" height="300"></iframe>
      </div>
    </div>
-   <div class="footer">
-    <h6 style="text-align:center;
-    font-size:16px;padding:15px;">copyright@contact.com</h6>
-  </div>
+ </div>
+ <div class="footer">
+  <h6 style="text-align:center;
+  font-size:16px;padding:15px;">copyright@contact.com</h6>
+</div>
 </body>
 </html>
 <script src="javascript/contact.js"></script>
