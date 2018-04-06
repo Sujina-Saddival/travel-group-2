@@ -58,27 +58,27 @@ $(document).ready(function(){
     $(".europ").hide();
     $(".souame").hide();
     $(".asian").show();
-    $(".centered").text("asia");
+    $(".centered").text("- - Asia - -");
   });
   $("#austr").click(function(){
     $(".asian").hide();
     $(".europ").hide();
     $(".souame").hide();
     $(".austra").show();
-    $(".centered").text("Australia");
+    $(".centered").text("- - Australia - -");
   });
   $("#euro").click(function(){
     $(".asian").hide();
     $(".austra").hide();
     $(".souame").hide();
     $(".europ").show();
-    $(".centered").text("Europe");
+    $(".centered").text("- - Europe - -");
   });
   $("#soame").click(function(){
     $(".asian").hide();
     $(".austra").hide();
     $(".europ").hide();
     $(".souame").show();
-    $(".centered").text("South America");
+    $(".centered").text("- - South America - -");
   });
 });
